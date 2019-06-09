@@ -1,5 +1,5 @@
-const webpack = require('webpack');
 const merge = require('webpack-merge');
+const webpack = require('webpack');
 const common = require('./webpack.common');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -29,6 +29,7 @@ module.exports = merge(common, {
     }),
     new webpack.EnvironmentPlugin({
       API_URL: process.env.API_URL,
+      PUBLIC_KEY: process.env.PUBLIC_KEY,
     }),
   ]
 });

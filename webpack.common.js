@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 // config
 module.exports = {
@@ -44,21 +44,21 @@ module.exports = {
       '@api': path.resolve(__dirname, 'src/api'),
       '@components': path.resolve(__dirname, 'src/components'),
       '@constants': path.resolve(__dirname, 'src/constants'),
-      '@containers': path.resolve(__dirname, 'src/containers'),
-      '@contexts': path.resolve(__dirname, 'src/contexts'),
-      '@hocs': path.resolve(__dirname, 'src/hocs'),
-      '@messages': path.resolve(__dirname, 'src/messages'),
+      // '@containers': path.resolve(__dirname, 'src/containers'),
+      // '@contexts': path.resolve(__dirname, 'src/contexts'),
+      // '@hocs': path.resolve(__dirname, 'src/hocs'),
+      // '@messages': path.resolve(__dirname, 'src/messages'),
       '@reducers': path.resolve(__dirname, 'src/reducers'),
       '@routes': path.resolve(__dirname, 'src/routes'),
       '@sagas': path.resolve(__dirname, 'src/sagas'),
-      '@selectors': path.resolve(__dirname, 'src/selectors'),
-      '@shared-components': path.resolve(__dirname, 'src/shared-components'),
-      '@src': path.resolve(__dirname, 'src/src'),
+      // '@selectors': path.resolve(__dirname, 'src/selectors'),
+      // '@shared-components': path.resolve(__dirname, 'src/shared-components'),
+      // '@src': path.resolve(__dirname, 'src/src'),
       '@utils': path.resolve(__dirname, 'src/utils'),
     },
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
       // 'process.env.API_URL': JSON.stringify(process.env.API_URL),
       'process.env.src_URL': JSON.stringify(process.env.src_URL),

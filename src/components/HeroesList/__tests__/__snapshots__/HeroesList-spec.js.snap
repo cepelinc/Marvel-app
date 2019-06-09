@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroesList matches snapshot 1`] = `
+<div
+  className="stylestyled__container-sc-1ibe3y5-0 gExrlQ"
+>
+  <h1>
+    MARVEL SUPERHEROES
+  </h1>
+  <div
+    className="stylestyled__container-sc-1w3xa03-0 bwkBWD"
+  >
+    <div>
+      <span
+        onClick={[Function]}
+      >
+        &lt; prev page
+      </span>
+    </div>
+    <div>
+      <span
+        onClick={[Function]}
+      >
+        next page &gt;
+      </span>
+    </div>
+  </div>
+  <div
+    className="stylestyled__container-u3r3w8-0 bsOeVg"
+  >
+    <div>
+      <div>
+        <img
+          src="path.jpg"
+        />
+        <span>
+          Spiderman
+        </span>
+      </div>
+      <div>
+        <span>
+          Comics
+        </span>
+        <p>
+          yeah
+        </p>
+      </div>
+      <div>
+        <span>
+          Series
+        </span>
+        <p>
+          yeah
+        </p>
+      </div>
+      <div>
+        <span>
+          Events
+        </span>
+        <p>
+          yeah
+        </p>
+      </div>
+      <div>
+        <span>
+          Stories
+        </span>
+        <p>
+          yeah
+        </p>
+      </div>
+    </div>
+    <a
+      className="stylestyled__link-u3r3w8-1 gMsAOd"
+      href="/heroes/1"
+      onClick={[Function]}
+    >
+      Find out more about 
+      Spiderman
+       &gt; &gt; &gt;
+    </a>
+  </div>
+</div>
+`;

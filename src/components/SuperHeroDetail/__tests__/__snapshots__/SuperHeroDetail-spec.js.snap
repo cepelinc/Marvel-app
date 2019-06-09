@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroesList matches snapshot 1`] = `
+<div
+  className="stylestyled__container-sc-1yxe6pz-0 gLyuMP"
+>
+  <h1
+    className="stylestyled__title-sc-1yxe6pz-1 dOgraA"
+  />
+  <div
+    className="stylestyled__detailContainer-sc-1yxe6pz-2 cZeaIC"
+  >
+    <div
+      className="stylestyled__item-sc-1yxe6pz-3 bRHJTS"
+    >
+      <img
+        src="path.jpg"
+      />
+    </div>
+    <div
+      className="stylestyled__item-sc-1yxe6pz-3 bRHJTS"
+    >
+      <h3>
+        Biography
+      </h3>
+       
+      description
+    </div>
+    <div
+      className="stylestyled__item-sc-1yxe6pz-3 bRHJTS"
+    >
+      <h3>
+        SuperLinks
+      </h3>
+      no links available
+    </div>
+  </div>
+</div>
+`;

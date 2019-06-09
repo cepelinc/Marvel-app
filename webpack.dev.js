@@ -25,7 +25,10 @@ module.exports = merge(common, {
       filename: './index.html',
     }),
     new webpack.EnvironmentPlugin({
-      API_URL: 'http://127.0.0.1:3000/api/v1/',
+      API_URL: 'https://gateway.marvel.com:443/v1/public/',
+      PUBLIC_KEY: '7bee31b2826502583a4bf7ee68aeedbc',
+
+
     }),
     // new webpack.HotModuleReplacementPlugin(), // Enable hot reloading
   ]

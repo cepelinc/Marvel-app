@@ -1,0 +1,26 @@
+{
+    "presets": [
+      "@babel/env",
+      "@babel/react",
+    ],
+    "env": {
+      "production": {
+        "plugins": [
+          "babel-plugin-jsx-remove-data-test-id"
+        ]
+      }
+    },
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "style": "css"
+        }
+      ],
+      "babel-plugin-styled-components",
+      "react-hot-loader/babel",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-transform-runtime",
+    ]
+  }
