@@ -15,8 +15,6 @@ export const apiClient = params => {
   });
   const url = `${params.module}${params.module.includes('?') ? '&' : '?'}apikey=${PUBLIC_KEY}`
 
-  // const localParams = Object.assign({}, params.query || {});
-
   const options = {
     method: params.method.toLowerCase(),
     baseURL: BASE_URL,

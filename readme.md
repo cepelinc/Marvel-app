@@ -1,13 +1,13 @@
 # MARVEL SUPERHEROES APP
 
 ## Scripts
-
+(you can use npm too)
  - Install dependencies: yarn install
  - Development: yarn start
  - Test: yarn test
  - Linting: yarn lint
  - Production: yarn build
- (you can use npm too)
+ 
 
  ## Stack
 
